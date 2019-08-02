@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/table1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:paddingTop="20dp"
+                android:text="Table 1"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <Switch
+                android:id="@+id/table2"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="20dp"
+                android:text="Table 2"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+            <Switch
+                android:id="@+id/table3"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="20dp"
+                android:text="Table 3"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Switch
+                android:id="@+id/table4"
+            android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Table 4"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <Switch
+                android:id="@+id/table5"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Table 5"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <Switch
+                android:id="@+id/table6"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Table 6"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Switch
+                android:id="@+id/table7"
+            android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Table 7"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <Switch
+                android:id="@+id/table8"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Table 8"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <Switch
+                android:id="@+id/table9"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Table 9"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Switch
+                android:id="@+id/table10"
+            android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Table 10"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+            android:paddingBottom="20dp"/>
+
+            <Switch
+                android:id="@+id/table11"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Table 11"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <Switch
+                android:id="@+id/table12"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Table 12"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:paddingTop="20dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+
+                    android:text="Adjust All Centerpieces"
+                    android:textColor="@color/white"
+                    android:textSize="24dp" />
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pattern:"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"/>
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:background="@color/white"
+                android:entries="@array/candles"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="Brightness:"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <SeekBar
+                    android:id="@+id/brightness"
+                    style="@style/Widget.AppCompat.SeekBar.Discrete"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:max="255"
+                    android:progress="255"
+                    android:textColor="@color/white"
+                    android:theme="@style/AppTheme.Picker" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text="Color: "/>
+                <CheckBox
+                    android:id="@+id/customColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:theme="@style/AppTheme.Picker"
+                    android:text="Use Custom"/>
+
+                <com.larswerkman.holocolorpicker.ColorPicker
+                    android:id="@+id/picker"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                 />
+            </LinearLayout>
+            <Button
+                android:id="@+id/setAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Set All"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp" />
+        </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

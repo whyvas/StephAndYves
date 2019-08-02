@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">1Steph And Yves\' Wedding App</string>
+        <string-array name="candles">
+            <item>Off</item>
+            <item>Static Light</item>
+            <item>Simple Candle</item>
+            <item>Wedding Dinner</item>
+            <item>Time to Eat!</item>
+            <item>Blink</item>
+            <item>Strobe</item>
+            <item>Color Fader</item>
+        </string-array>
+</resources>
